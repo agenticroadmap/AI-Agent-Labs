@@ -14,3 +14,13 @@ User Question
 AI Model
 ↓
 Persian Answer
+## اجرا روی سیستم شخصی
+
+این پروژه روی خود GitHub اجرا نمی‌شود.  
+برای اجرا باید ریپو را روی سیستم خود Clone کنید:
+
+```bash
+git clone https://github.com/agenticroadmap/AI-Agent-Labs.git
+cd AI-Agent-Labs/labs/01-first-agent
+pip install -r requirements.txt
+python main.py
