@@ -14,13 +14,39 @@ User Question
 AI Model
 ↓
 Persian Answer
+```
+
 ## اجرا روی سیستم شخصی
 
-این پروژه روی خود GitHub اجرا نمی‌شود.  
+این پروژه روی خود GitHub اجرا نمی‌شود.
+
 برای اجرا باید ریپو را روی سیستم خود Clone کنید:
 
 ```bash
 git clone https://github.com/agenticroadmap/AI-Agent-Labs.git
+
 cd AI-Agent-Labs/labs/01-first-agent
+
 pip install -r requirements.txt
+
 python main.py
+```
+
+## نمونه ورودی
+
+```text
+LangGraph چیست؟
+```
+
+## نمونه خروجی
+
+```text
+LangGraph یک فریم‌ورک برای ساخت Agentها و Workflowهای هوشمند است.
+```
+
+## مفاهیم این Lab
+
+* Prompt
+* LLM
+* User Input
+* AI Response
