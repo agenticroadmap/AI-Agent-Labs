@@ -17,7 +17,7 @@
 | 02    | [Tool Calling Agent](./labs/02-tool-calling) | آماده   | انتخاب و اجرای ابزار توسط Agent                |
 | 03    | [Memory Agent](./labs/03-memory-agent)       | آماده   | ذخیره اطلاعات کاربر و استفاده در پاسخ‌های بعدی |
 | 04    | [RAG Agent](./labs/04-rag-agent)             | آماده   | پاسخ‌دهی بر اساس فایل‌ها و منابع اختصاصی       |
-| 05    | Web Research Agent                           | به‌زودی | تحقیق وبی و تولید گزارش ساختاریافته            |
+| 05    | [Web Research Agent](./labs/05-web-research-agent) | آماده | تحقیق وبی و تولید گزارش ساختاریافته |
 
 
 ## استاندارد هر Agent
