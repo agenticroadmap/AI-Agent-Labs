@@ -19,6 +19,11 @@
 | 04    | [RAG Agent](./labs/04-rag-agent)             | آماده   | پاسخ‌دهی بر اساس فایل‌ها و منابع اختصاصی       |
 | 05    | [Web Research Agent](./labs/05-web-research-agent) | آماده | تحقیق وبی و تولید گزارش ساختاریافته |
 
+## Business Agents
+
+| شماره | Agent | وضعیت | هدف |
+|---|---|---|---|
+| 01 | [GitHub Repo Analyzer Agent](./projects/github-repo-analyzer-agent) | آماده | تحلیل Repositoryهای GitHub و تولید گزارش فارسی |
 
 ## استاندارد هر Agent
 
