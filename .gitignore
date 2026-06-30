@@ -25,3 +25,5 @@ Thumbs.db
 .idea/
 # Local agent memory
 memory.json
+# Local generated reports
+reports/
