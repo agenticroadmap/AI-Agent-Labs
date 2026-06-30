@@ -94,4 +94,4 @@ python main.py
 نمونه خروجی این Agent را می‌توانید اینجا ببینید:
 
 ```text
-demo/sample-output.md.
+demo/sample-output.md
