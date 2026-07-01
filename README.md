@@ -24,6 +24,7 @@
 | شماره | Agent | وضعیت | هدف |
 |---|---|---|---|
 | 01 | [GitHub Repo Analyzer Agent](./projects/github-repo-analyzer-agent) | آماده | تحلیل Repositoryهای GitHub و تولید گزارش فارسی |
+| 02 | [Website Analyzer Agent](./projects/website-analyzer-agent) | آماده | تحلیل وب‌سایت و تولید گزارش فارسی کاربردی |
 
 ## استاندارد هر Agent
 
