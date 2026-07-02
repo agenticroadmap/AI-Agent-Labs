@@ -60,11 +60,11 @@ Business Agents
 
 این بخش شامل Agentهایی است که می‌توانند در آینده به نمونه‌کار، سرویس یا ابزار قابل ارائه به کسب‌وکارها تبدیل شوند.
 
-| شماره | Agent                                                               | وضعیت | هدف                                            |
-| ----- | ------------------------------------------------------------------- | ----- | ---------------------------------------------- |
-| 01    | [GitHub Repo Analyzer Agent](./projects/github-repo-analyzer-agent) | آماده | تحلیل Repositoryهای GitHub و تولید گزارش فارسی |
-| 02    | [Website Analyzer Agent](./projects/website-analyzer-agent)         | آماده | تحلیل وب‌سایت و تولید گزارش فارسی کاربردی      |
-
+| شماره | Agent | وضعیت | هدف |
+|---|---|---|---|
+| 01 | [GitHub Repo Analyzer Agent](./projects/github-repo-analyzer-agent) | آماده | تحلیل Repositoryهای GitHub و تولید گزارش فارسی |
+| 02 | [Website Analyzer Agent](./projects/website-analyzer-agent) | آماده | تحلیل وب‌سایت و تولید گزارش فارسی کاربردی |
+| 03 | [Document Analyzer Agent](./projects/document-analyzer-agent) | آماده | تحلیل سندهای متنی و تولید گزارش فارسی |
 ---
 
 ## استاندارد هر Agent
