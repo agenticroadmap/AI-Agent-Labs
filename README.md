@@ -7,14 +7,16 @@
 
 آزمایشگاه عملی ساخت AI Agentها به زبان فارسی.
 
-این ریپو بازوی فنی AgenticRoadmap است؛ جایی برای ساخت، تست و نمایش Agentهای واقعی.
+این ریپو بازوی فنی AgenticRoadmap است؛ جایی برای ساخت، تست و نمایش Agentهای واقعی و قابل اجرا.
 
 ---
 
 ## AgenticRoadmap چیست؟
 
-در سایت AgenticRoadmap مفاهیم را یاد می‌گیریم.
-در اینجا همان مفاهیم را به Agentهای قابل اجرا تبدیل می‌کنیم.
+AgenticRoadmap یک پروژه فارسی برای یادگیری، ساخت و کاربردی‌کردن AI Agentهاست.
+
+در سایت، مفاهیم را یاد می‌گیریم.
+در GitHub، همان مفاهیم را به پروژه‌های عملی تبدیل می‌کنیم.
 
 ```text
 Website
@@ -32,7 +34,17 @@ Business Agents
 
 ---
 
-## Labs
+## Roadmap
+
+مسیر توسعه این پروژه در فایل زیر قابل مشاهده است:
+
+[مشاهده Roadmap پروژه](./ROADMAP.md)
+
+---
+
+## Core Labs
+
+این بخش پایه‌های اصلی ساخت AI Agent را به‌صورت عملی نشان می‌دهد.
 
 | شماره | Agent                                              | وضعیت | هدف                                            |
 | ----- | -------------------------------------------------- | ----- | ---------------------------------------------- |
@@ -46,6 +58,8 @@ Business Agents
 
 ## Business Agents
 
+این بخش شامل Agentهایی است که می‌توانند در آینده به نمونه‌کار، سرویس یا ابزار قابل ارائه به کسب‌وکارها تبدیل شوند.
+
 | شماره | Agent                                                               | وضعیت | هدف                                            |
 | ----- | ------------------------------------------------------------------- | ----- | ---------------------------------------------- |
 | 01    | [GitHub Repo Analyzer Agent](./projects/github-repo-analyzer-agent) | آماده | تحلیل Repositoryهای GitHub و تولید گزارش فارسی |
@@ -55,13 +69,14 @@ Business Agents
 
 ## استاندارد هر Agent
 
-هر Agent در این ریپو شامل این بخش‌هاست:
+هر Agent در این ریپو تا حد امکان شامل این بخش‌هاست:
 
-* README فارسی
-* کد قابل اجرا
-* نمونه خروجی
-* فایل تنظیمات محیطی
-* توضیح اجرای محلی
+* `README.md` — توضیح فارسی پروژه
+* `main.py` — کد اصلی Agent
+* `requirements.txt` — وابستگی‌های پروژه
+* `.env.example` — نمونه تنظیمات محیطی
+* `demo/sample-output.md` — نمونه خروجی قابل مشاهده
+* خروجی محلی مثل `reports/` یا `memory.json` در GitHub ذخیره نمی‌شود
 
 ---
 
@@ -69,24 +84,48 @@ Business Agents
 
 هر Agent به‌صورت جداگانه اجرا می‌شود.
 
-نمونه:
+ابتدا ریپو را Clone کنید:
 
 ```bash
 git clone https://github.com/agenticroadmap/AI-Agent-Labs.git
+```
+
+بعد وارد پوشه Agent مورد نظر شوید.
+مثلاً برای GitHub Repo Analyzer:
+
+```bash
 cd AI-Agent-Labs/projects/github-repo-analyzer-agent
 pip install -r requirements.txt
 python main.py
 ```
 
+بعضی Agentها برای اجرا به API Key نیاز دارند.
+نمونه تنظیمات در فایل `.env.example` هر پروژه قرار دارد.
+
 ---
 
-## مسیر پروژه
+## نکته امنیتی
+
+هیچ‌وقت فایل‌های زیر را وارد GitHub نکنید:
+
+```text
+.env
+memory.json
+reports/
+```
+
+این فایل‌ها ممکن است شامل اطلاعات شخصی، API Key یا خروجی‌های محلی باشند.
+
+---
+
+## مسیر آینده
 
 این ریپو به‌مرور تبدیل می‌شود به مجموعه‌ای از Agentهای عملی برای:
 
 * یادگیری AI Agentها
 * ساخت نمونه‌کار فنی
 * تحلیل ابزارها و وب‌سایت‌ها
+* تحقیق وبی و تولید گزارش
 * آماده‌سازی خدمات آینده برای کسب‌وکارها
 
 ---
@@ -96,3 +135,5 @@ python main.py
 * Website: https://agenticroadmap.ir
 * X: https://x.com/agenticroadmap
 * Telegram: https://t.me/agenticroadmap
+* GitHub: https://github.com/agenticroadmap
+  
