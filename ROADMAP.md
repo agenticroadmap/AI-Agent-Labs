@@ -22,7 +22,7 @@
 
 * [x] GitHub Repo Analyzer Agent
 * [x] Website Analyzer Agent
-* [ ] Document Analyzer Agent
+* [x] Document Analyzer Agent
 * [ ] News Research Agent
 * [ ] Content Research Agent
 
