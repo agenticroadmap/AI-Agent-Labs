@@ -65,6 +65,7 @@ Business Agents
 | 01 | [GitHub Repo Analyzer Agent](./projects/github-repo-analyzer-agent) | آماده | تحلیل Repositoryهای GitHub و تولید گزارش فارسی |
 | 02 | [Website Analyzer Agent](./projects/website-analyzer-agent) | آماده | تحلیل وب‌سایت و تولید گزارش فارسی کاربردی |
 | 03 | [Document Analyzer Agent](./projects/document-analyzer-agent) | آماده | تحلیل سندهای متنی و تولید گزارش فارسی |
+| 04 | [News Research Agent](./projects/news-research-agent) | آماده | تحقیق خبری و تولید گزارش فارسی ساختاریافته |
 ---
 
 ## استاندارد هر Agent
