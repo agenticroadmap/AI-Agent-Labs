@@ -24,7 +24,7 @@
 * [x] Website Analyzer Agent
 * [x] Document Analyzer Agent
 * [x] News Research Agent
-* [ ] Content Research Agent
+* [x] Content Research Agent
 
 ---
 
