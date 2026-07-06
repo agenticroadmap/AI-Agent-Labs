@@ -91,6 +91,9 @@ set OPENAI_API_KEY=your_api_key_here
 python main.py
 ```
 
-## وضعیت
+## Demo
 
-در حال ساخت...
+نمونه خروجی این Agent را می‌توانید اینجا ببینید:
+
+```text
+demo/sample-output.md
