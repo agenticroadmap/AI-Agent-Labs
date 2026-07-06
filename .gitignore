@@ -27,3 +27,5 @@ Thumbs.db
 memory.json
 # Local generated reports
 reports/
+# Local generated content briefs
+briefs/
