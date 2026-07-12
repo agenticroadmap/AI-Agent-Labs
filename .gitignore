@@ -29,3 +29,5 @@ memory.json
 reports/
 # Local generated content briefs
 briefs/
+# Local generated support replies
+replies/
