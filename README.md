@@ -67,6 +67,7 @@ Business Agents
 | 03 | [Document Analyzer Agent](./projects/document-analyzer-agent) | آماده | تحلیل سندهای متنی و تولید گزارش فارسی |
 | 04 | [News Research Agent](./projects/news-research-agent) | آماده | تحقیق خبری و تولید گزارش فارسی ساختاریافته |
 | 05 | [Content Research Agent](./projects/content-research-agent) | آماده | تحقیق موضوعی و ساخت Brief فارسی برای تولید محتوا |
+| 06 | [Customer Support Agent](./projects/customer-support-agent) | آماده | تولید پاسخ پشتیبانی بر اساس دانش داخلی |
 ---
 
 ## استاندارد هر Agent
