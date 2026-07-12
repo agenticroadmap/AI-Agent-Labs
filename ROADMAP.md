@@ -37,7 +37,7 @@
 * [ ] Internal Knowledge Agent
 * [ ] CRM Assistant Agent
 * [ ] Market Research Agent
-
+- [x] Customer Support Agent
 ---
 
 ## Phase 4 — AgenticRoadmap Services
